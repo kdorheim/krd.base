@@ -1,2 +1,11 @@
 # krd.base
-A R package that contains basic functionality that I find that I use on a regular basis
+A R package that helps me set up my porjects 
+
+* defines the my R markdown template 
+
+
+## Installation
+
+```
+remotes::install_github('kdorheim/krd.base')
+```
