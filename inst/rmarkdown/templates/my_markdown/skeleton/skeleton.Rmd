@@ -1,0 +1,29 @@
+---
+title: "Title"
+output:
+  html_notebook:
+    toc: yes
+    toc_depth: '4'
+    toc_float: yes
+    number_sections: true
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+---
+
+# Set Up 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, error = FALSE, message = FALSE)
+# see https://bookdown.org/yihui/rmarkdown-cookbook/ for more info on markdowns
+```
+
+```{r}
+library(data.table)
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+
+BASE_DIR <- here::here()
+```
+
+## Objective 
+
+Here we are .... 
