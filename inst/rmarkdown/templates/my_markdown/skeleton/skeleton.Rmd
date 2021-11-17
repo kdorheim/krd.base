@@ -22,6 +22,8 @@ library(tidyr)
 library(ggplot2)
 
 BASE_DIR <- here::here()
+
+theme_set(theme_bw())
 ```
 
 ## Objective 
